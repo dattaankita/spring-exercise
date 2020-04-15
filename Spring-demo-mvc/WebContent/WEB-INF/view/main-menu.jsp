@@ -4,6 +4,7 @@
 <body>
 .<br>
 
-<a href="./showPage">Hello world input form</a>
+<!-- <a href="showPage">Hello world input form</a> -->
+<a href="hello/showPage">Hello world input form</a>
 </body>
 </html>
