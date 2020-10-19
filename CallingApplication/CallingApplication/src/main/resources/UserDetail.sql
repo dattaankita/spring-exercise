@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS User;
+ 
+CREATE TABLE User (
+  user_id INT AUTO_INCREMENT  PRIMARY KEY,
+  name VARCHAR(45) DEFAULT NULL,
+  user_name VARCHAR(45) DEFAULT NULL,
+  phonenumber INT NOT NULL,
+  email VARCHAR(45) DEFAULT NULL,
+  callstatus INT NOT NULL,
+  password VARCHAR(45) DEFAULT NULL
+
+);
+ 
